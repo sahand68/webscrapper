@@ -7,7 +7,8 @@ class SEOAnalyzer:
     def __init__(self):
         self.manager_llm = LLM(
             model="claude-3-5-sonnet-20241022", 
-            api_key=os.getenv('ANTHROPIC_API_KEY')
+            api_key=os.getenv('ANTHROPIC_API_KEY'),
+            max_tokens =8026
         )
         
         self.keyword_agent = self._create_keyword_agent()
