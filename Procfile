@@ -1,2 +1,3 @@
-web: streamlit run src/app.py --server.port $PORT --server.address 0.0.0.0 
+web: sh setup-script.sh && streamlit run src/app.py
+
 
