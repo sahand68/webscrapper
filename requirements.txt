@@ -1,0 +1,8 @@
+streamlit
+beautifulsoup4
+requests
+crewai
+python-dotenv
+langchain-anthropic
+pandas
+nltk
